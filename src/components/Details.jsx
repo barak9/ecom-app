@@ -26,7 +26,7 @@ const Details = () => {
         dispatch({ type: 'PRODUCT', id: id });
     }, [id]);
     return (
-        <div className='container-fluid mt-80'>
+        <div className='container-fluid mt-100'>
             <div className='row'>
             <div className='col-1'></div>
                 <div className='col-4'>
