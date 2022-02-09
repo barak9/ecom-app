@@ -1,7 +1,7 @@
 
 const initState = {
     products: [
-        {id: 1, name: 'HP Pavilion Gaming 10th Gen Intel Core i5 14-inch (34.6 cms) FHD Gaming', image: 'HP.png', price: 5000, discount: 40,
+        {id: 1, name: 'HP Pavilion Gaming 10th Gen Intel Core i5 14-inch (34.6 cms) FHD Gaming', image: 'https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/2/1/21c1_pavilion_trixie_14_naturalsilver_frontfacing_1_3.png', price: 5000, discount: 40,
          discountPrice: 5000 - 2000, quantity: 1,
         desc: "Lorem Picsum is a service providing easy to use,stylish placeholders. ... It's written in Go, and uses Redis, PostgreSQL and DigitalOcean Spaces.",
     

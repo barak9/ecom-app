@@ -6,6 +6,7 @@ import cF from 'currency-formatter';
 
 import Slider from './Slider';
 import Footer from './Footer';
+import img from './HP.png';
 const Home = () => {
     const { products } = useSelector(state => state.ProductsReducer);
     // console.log(products);
@@ -25,7 +26,8 @@ const Home = () => {
 
                                     <div className='product_img'>
                                         <Link to={`/details/${product.id}`}>
-                                            <img src={`/images/${product.image}`} alt='image name' />
+                                            <img src={product.image} alt='image name' />
+                                            
                                         </Link>
                                     </div>
                                

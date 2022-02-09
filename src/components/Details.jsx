@@ -31,7 +31,7 @@ const Details = () => {
             <div className='col-1'></div>
                 <div className='col-4'>
                     <div className='details_img'>
-                        <img src={`/images/${product.image}`} alt='pic' />
+                        <img src={product.image} alt='pic' />
                     </div>
                 </div>
               
