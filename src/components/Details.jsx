@@ -26,7 +26,7 @@ const Details = () => {
         dispatch({ type: 'PRODUCT', id: id });
     }, [id]);
     return (
-        <div className='container-fluid mt-100'>
+        <div className='container-fluid mt-80'>
             <div className='row'>
             <div className='col-1'></div>
                 <div className='col-4'>
@@ -57,8 +57,7 @@ const Details = () => {
                             
                         
                     </div>
-                    <br>
-                    </br>
+                   
                     <div className="details_p">
                     <h2>PRODUCT DETAILS</h2>
                     <table class="table table-bordered">
