@@ -4,7 +4,7 @@ export const sliderItems=[
         id: 1,
         img: "https://www.lenovo.com/medias/lenovo-laptop-ideapad-3i-15in-hero.png?context=bWFzdGVyfHJvb3R8Nzg5MTR8aW1hZ2UvcG5nfGgwZC9oN2MvMTE4MTQ4OTkxODc3NDIucG5nfDMyYzZlOTFjNjYzMmFlNWEzYzkzOTVlNGYxMmUzNDczOGFhNTY3OWY3MDgwNmMxODgyMjAzOGJhYjgyMzkxY2M",
         title: "WINTER SALE",
-        desc: "DON'T COMPROMISE ON TECHNOLOGY! GET FLAT 20% OFF FOR NEW ARRIVALS.",
+        desc: "DON'T COMPROMISE ON TECHNOLOGY! GET FLAT 20%",
         bg: "f5fafd",
       },
       {

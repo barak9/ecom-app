@@ -47,19 +47,19 @@ align-items:center;
 background-color: #${props=>props.bg};
 `;
 const ImgContainer=styled.div`
-height:100%;
+height:70%;
 width:65%
 `
 const Image= styled.img`
 flex:1;
-height:80%;
+height:70%;
 margin-top:50px;
-margin-left:190px;
+margin-left:60px;
 `
 const InfoContainer=styled.div`
 flex:1;
 
-padding:40px;
+margin-left:-90px;
 `
 
 const Title= styled.h1`
@@ -68,7 +68,7 @@ font-weight:200px;
 
 `
 const Desc= styled.p`
-margin:50px 0px;
+margin:40px 0px;
 font-size:20px;
 font-weight:500;
 letter-spacing:3px;

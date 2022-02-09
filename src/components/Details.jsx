@@ -76,14 +76,7 @@ const Details = () => {
                 </div>
                 <div className='col-3 '> </div>
                 <br></br> <br></br> <br></br>
-                <div className='col mt-100'> 
-                
-                <Footer/>
-                
-                
-                
-                
-                </div>
+            
             </div>
            
         </div>
