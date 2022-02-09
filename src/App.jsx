@@ -16,8 +16,8 @@ const App = () => {
             <Nav/>
         <Route path="/ecom-app" exact component={Home} />
         
-        <Route path="/cart" exact component={Cart} />
-        <Route path='/details/:id' exact component={Details} />
+        <Route path="/cart" component={Cart} />
+        <Route path='/details/:id' component={Details} />
         </Provider>
         </Router>
     );
