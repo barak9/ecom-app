@@ -217,6 +217,7 @@ a{
 
 .summery{
     padding-left: 0px;
+    margin-top: 40px;
 }
 
 .summary_heading{
@@ -229,7 +230,7 @@ a{
     background: var(--main);
     color: var(--white);
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 28px;
     padding-left:15px;
     padding-top:20px;
 }

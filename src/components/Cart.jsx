@@ -3,7 +3,7 @@ import cF from 'currency-formatter';
 import { useSelector, useDispatch } from 'react-redux';
 import { BsDash, BsPlus } from "react-icons/bs";
 import { BsXSquare } from "react-icons/bs";
-
+import Footer from './Footer';
 
 const Cart = () => {
     const { products, totalQuantities, totalPrice } = useSelector(state => state.CartReducer);
@@ -12,11 +12,13 @@ const Cart = () => {
     return (
         <form >
         <div className='cart'>
-            <div className='container'>
-                <h3> your cart </h3>
+            <div className='container-fluid'>
+               
                 {products.length > 0 ? <>
                     <div className='row'>
-                        <div className='col-9'>
+                    <div className='col-1'></div>
+                        <div className='col-8'>
+                        <h3> Cart Details </h3>
                             <div className='cart_heading'>
                                 <div className='row'>
                                     <div className='col-2'>Picture</div>
@@ -24,14 +26,14 @@ const Cart = () => {
                                     <div className='col-2'>Price</div>
                                     <div className='col-2'>Inc/Dec</div>
                                     <div className='col-2'>Total Price</div>
-                                    <div className='col-2'>Remove</div>
+                                    <div className='col-1'>Remove</div>
                                 </div>
                             </div>
                             {products.map(product => (
                                 <div className="row verticalAlign" key={product.id}>
                                     <div className='col-2'>
                                         <div className='cart_image'>
-                                            <img src={`/images/${product.image}`} alt='' />
+                                            <img src={product.image} alt='' />
                                         </div>
                                     </div>
 
@@ -73,7 +75,7 @@ const Cart = () => {
                                 </div>
                             ))}
                         </div>
-
+                       
                         <div className='col-3 summary-col'>
                             <div className="summery">
                                 <div className="summary_heading">
@@ -103,6 +105,16 @@ const Cart = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className='col-9 '> </div>
+                <br></br> <br></br> <br></br>
+                <div className='col mt-100'> 
+                
+                <Footer/>
+                
+                
+                
+                
+                </div>
                     </div>
                 </>
                     : 'your cart is empty!'}

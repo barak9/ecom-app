@@ -12,13 +12,15 @@ const Nav = () => {
            
                 <div className='nav-container'>
                     <div className='left'>
-                    <Link to='/'>
+                    <Link to='/ecom-app'>
                      <img src={process.env.PUBLIC_URL+"/images/logo.jpg"} />
                      </Link>
                     </div>
                     <ul className='nav-items'>
                         <li>
-                            <a href='#'>Home</a>
+                        <Link to='/ecom-app'>Home
+                  
+                     </Link>
                         </li>
                         <li>
                             <a href='#'>AboutUs</a>
